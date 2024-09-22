@@ -1,0 +1,46 @@
+/* calendar-dark.css */
+.dark .react-calendar {
+    background-color: rgb(16, 23, 42) !important; /* Match the dark background */
+    color: #cbd5e0; /* Light text color */
+    border: 1px solid rgb(75, 85, 99) !important; /* Match the dark border */
+  }
+  
+  .dark .react-calendar__tile {
+    background-color: transparent !important;
+    color: #cbd5e0 !important;
+  }
+  
+  .dark .react-calendar__tile:enabled:hover,
+  .dark .react-calendar__tile:enabled:focus {
+    background-color: rgb(34, 42, 67) !important; /* Slightly lighter dark background on hover/focus */
+  }
+  
+  .dark .react-calendar__tile--now {
+    background-color: rgb(75, 85, 99) !important; /* Darker shade for the current day */
+    color: white !important;
+  }
+  
+  .dark .react-calendar__tile--active {
+    background-color: rgb(96, 165, 250) !important; /* Active date background */
+    color: white !important;
+  }
+  
+  .dark .react-calendar__navigation button {
+    color: #cbd5e0 !important; /* Light text for navigation */
+    background-color: transparent !important;
+  }
+  
+  .dark .react-calendar__navigation button:enabled:hover,
+  .dark .react-calendar__navigation button:enabled:focus {
+    background-color: rgb(34, 42, 67) !important;
+  }
+  
+  .dark .react-calendar__month-view__weekdays {
+    background-color: rgb(16, 23, 42) !important;
+    color: #cbd5e0 !important;
+  }
+  
+  .dark .react-calendar__month-view__weekdays__weekday {
+    color: #cbd5e0 !important;
+  }
+  

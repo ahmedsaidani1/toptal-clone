@@ -1,0 +1,101 @@
+.page-container {
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center horizontally */
+    margin-left: 50px; /* Adjust this if needed */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px; /* Add padding to the container */
+}
+
+.card {
+    position: relative;
+    width: 250px; /* Reduced width */
+    height: 230px; /* Reduced height */
+    border-radius: 20px;
+    background: whitesmoke;
+    box-shadow: 60px 20px 60px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Adjust padding to match new size */
+
+}
+
+.image_container {
+    position: absolute;
+    top: -50px; /* Adjusted top position */
+    width: 100px; /* Reduced width */
+    height: 100px; /* Reduced height */
+    background: black;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.4s;
+    box-shadow: 0 10px 55px rgba(0, 0, 0, 0.15);
+}
+
+.image_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the content text */
+}
+
+.details {
+    padding-top: 40px; /* Adjust padding to match new size */
+    width: 100%;
+}
+
+.details h2 {
+    font-size: 1.2em; /* Reduced font size */
+    font-weight: 700;
+    color: gray;
+    line-height: 1.2em;
+}
+
+.details h2 span {
+    font-size: 0.7em; /* Reduced font size */
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.action_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Adjust margin to match new size */
+}
+
+.action_buttons button {
+    width: 70%; /* Adjusted width */
+    padding: 8px 20px; /* Adjusted padding */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 0.9em; /* Reduced font size */
+    font-weight: 600;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.action_buttons button:nth-child(2) {
+    border: 0.3px solid gray;
+    color: gray;
+    background: whitesmoke;
+}

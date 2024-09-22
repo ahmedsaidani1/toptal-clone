@@ -1,0 +1,13 @@
+.UserPage {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 300px; /* Ajustez selon la largeur désirée pour la sidebar */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
